@@ -15,10 +15,11 @@ terraform {
   required_version = ">= 0.13"
 }
 
-provider "akamai" {
+# not needed when running via Terraform cloud
+/* provider "akamai" {
   edgerc         = var.edgerc_path
   config_section = var.config_section
-}
+} */
 
 data "akamai_group" "group" {
   group_name  = "Ion Standard Beta Jam 1-3-16TWBVX"
