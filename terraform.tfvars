@@ -1,1 +1,1 @@
-tf_include = "DSA-common"
+tf_include = "DSA-common-TF"
