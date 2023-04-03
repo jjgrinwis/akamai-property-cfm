@@ -56,7 +56,7 @@ data "akamai_property_rules_builder" "cfm-grinwis-com_rule_default" {
 
 data "akamai_property_rules_builder" "cfm-grinwis-com_rule_new_rule" {
   rules_v2023_01_05 {
-    name                  = "New Rule"
+    name                  = "Common Include"
     is_secure             = false
     criteria_must_satisfy = "all"
     behavior {
